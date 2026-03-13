@@ -20,3 +20,24 @@ This is my first Laravel application created for Activity 1. It's a personal por
 - Blade Template Engine
 - HTML5 & CSS3
 
+- ## Installation
+1. Clone this repository
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/laravel-portfolio-activity1.git
+
+2. Navigate to project directory 
+   ```bash
+   cd laravel-portfolio-activity1
+3. Install dependencies
+   ```bash
+   composer install
+4. Copy .env file
+    ```bash
+   cp .env.example .env
+5. Generate application key
+    ```bash  
+   php artisan key:generate
+6. Run the developent server
+    ```bash
+    php artisan serve
+7. Visit http://localhost:8000
